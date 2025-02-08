@@ -31,9 +31,6 @@
             }
 
             canvas {
-                width: 100vw !important;  /* Set width to 100% of screen */
-        height: 100vh !important; /* Set height to 100% of screen */
-        display: block; /* Prevent extra margins */
                 image-rendering: optimizeSpeed;
                 -webkit-interpolation-mode: nearest-neighbor;
                 -ms-touch-action: none;
@@ -97,7 +94,7 @@
             
 
             <!-- Create the canvas element the game draws to -->
-            <canvas id="canvas" width="720" height="768" style="position: absolute; top: 50%; left: 50%; bottom: -50%; right: -50%; transform: translate(-50%, -50%);">
+            <canvas id="canvas" width="720" height="480" style="position: absolute; top: 50%; left: 50%; bottom: -50%; right: -50%; transform: translate(-50%, -50%);">
                 <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
