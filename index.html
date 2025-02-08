@@ -31,13 +31,14 @@
             }
 
             canvas {
+                width: 100vw !important;  /* Set width to 100% of screen */
+        height: 100vh !important; /* Set height to 100% of screen */
+        display: block; /* Prevent extra margins */
                 image-rendering: optimizeSpeed;
                 -webkit-interpolation-mode: nearest-neighbor;
                 -ms-touch-action: none;
                 touch-action: none;
-                margin: 0px;
                 padding: 0px;
-                border: 0px;
             }
             :-webkit-full-screen #canvas {
                 width: 100%;
